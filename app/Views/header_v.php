@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>PT PIN</title>
+    <title>CI - APP | PROGRAM STUDI</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -27,19 +27,19 @@
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Beranda <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="<?= site_url('Beranda')?>">Beranda <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Program studi</a>
+                        <a class="nav-link" href="<?= base_url('Program_Studi')?>">Program studi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Mahasiswa</a>
+                        <a class="nav-link" href="<?= site_url('Mahasiswa')?>">Mahasiswa</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Master</a>
                         <div class="dropdown-menu" aria-labelledby="dropdownId">
-                            <a class="dropdown-item" href="#">Agama</a>
-                            <a class="dropdown-item" href="#">Hobi</a>
+                            <a class="dropdown-item" href="<?= site_url('Agama')?>">Agama</a>
+                            <a class="dropdown-item" href="<?= site_url('Hobi')?>">Hobi</a>
                         </div>
                     </li>
                 </ul>
